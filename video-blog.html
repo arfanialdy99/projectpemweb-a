@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Video Blog - Aldy's Blog</title>
+	<link rel="icon" href="img/logo.png">
+	<meta name="Description" content="Website ini merupakan laman blog yang berisi tentang keseharian dan biografi saya sebagai mahasiswa Informatika UNS Surakarta">
+	<meta name="Keywords" content="informatika, uns, blog, story, website">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/video.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+
+
+	<!--- Navbar & Header --->
+	<header>
+	<div class="header-container">
+		<div class="header-logo">
+			<a href="index.html"><img src="img/logo.png"></a>
+		</div>
+		<ul class="navbar">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li id="dropdown">
+				More
+				<ul id="dropdown-content">
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="schedule.html">Schedule</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="header-title">
+		<h1><center>Video Blog</center></h1>
+		<h2><center>This is example of video blog</center></h2>
+	</div>
+	</header>
+
+	<!--- Section --->
+	<section class="video">
+		<div class="isi"><center>Berikut merupakan contoh video yang saya ambil dari tugas PKKMB Tahun 2017.</div></center>
+		<video style="width: 50vw" controls><source src="video/sample.mp4" type="video/mp4">
+		Your browser does not support the video tag.</video>
+		<br><br>
+		<hr style="margin-right: 75px; margin-left: 75px;">
+		<div class="comment-section" style="margin-top: 50px; margin-bottom: 50px;">
+			<div class="comment-list">
+				<div class="comment-item">
+					<h3>Comments :</h3>
+					<div class="comment-box">
+						<div class="comment-content">
+							<div class="comment-author">
+							<span style="font-weight: bold;">Arfani</span>
+							<div class="time">
+								<span class="text" style="font-size: 12px;">05/15/2019, 1:47 PM</span>
+							</div>
+							</div>
+						</div>
+						<div class="comment-body">
+							<p>Keren videonya</p>
+						</div>
+					</div>
+				</div>
+				<div class="comment-item">
+					<div class="comment-box">
+						<div class="comment-content">
+							<div class="comment-author">
+							<span style="font-weight: bold;">Aldy</span>
+							<div class="time">
+								<span class="text" style="font-size: 12px;">05/18/2019, 8:47 PM</span>
+							</div>
+							</div>
+						</div>
+						<div class="comment-body">
+							<p>Mantap</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="comment-item">
+					<h3>Add your comment</h3>
+					<div class="new-comment">
+						<form id="form" method="POST">
+							<strong>Name*</strong><br>
+							<input type="text" name="name" id="name" placeholder="Your name..."><br>
+							<strong>Comment*</strong><br>
+							<textarea name="comment" id="comment" cols="40" rows="10" placeholder="Your comment..."></textarea><br>
+							<button type="submit">Post</button>
+						</form>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<button id="topBtn"><i class="fa fa-chevron-up"></i></button>
+
+	<!--- Footer --->
+	<footer>
+	<div class="footer-main">
+		<div class="footer-icons">
+			<p style="text-align: center; font-family: Century Gothic; color: white; margin-bottom: 10px;"><i class="fa fa-copyright"> 2019 - Arfani Eka Aldyansyah</i></p> 
+			<ul>
+				<li><a href="https://www.facebook.com/aldhie.putra.92" target="blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://twitter.com/arfanialdyy" target="blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.instagram.com/arfanialdyy/?hl=id" target="blank"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://github.com/arfanialdy99" target="blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="blank"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+		
+	</div> 
+	</footer>
+
+
+	<script src="js/main.js">
+	</script>
+
+</body>
+</html>
