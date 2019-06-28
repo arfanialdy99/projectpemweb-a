@@ -15,6 +15,16 @@ $(document).ready(function() {
 		$('html, body').animate({scrollTop : 0}, 800)
 	})
 
+	/*--- Hide & Show ---*/
+	$(document).ready(function(){
+		$("#hide").click(function(){
+			$("p").hide();
+		});
+		$("#show").click(function(){
+			$("p").show();
+		});
+	});
+
 	/*--- Time ---*/
 
 	var noActivity;

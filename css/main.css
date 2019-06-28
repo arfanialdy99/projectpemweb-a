@@ -149,6 +149,50 @@ header .btn:hover {
     color: #000;
 }
 
+header .hide-header-button {
+    margin-top: 10px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header #hide {
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+header #show {
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+header #hide:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+header #show:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+header p {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 20px;
+    color: #fff;
+}
+
+
 /*--- About ---*/
 
 .about {
